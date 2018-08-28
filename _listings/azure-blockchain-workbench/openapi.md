@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Blockchain Workbench
 x-complete: 1
@@ -50,4 +49,3 @@ paths:
       tags:
       - Applications
       - Enable
----

@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Patches
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/apis.md
 specificationVersion: "0.14"
 apis:
@@ -151,6 +151,55 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribeinstancepatches-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribeinstancepatches-get-openapi.md
+- name: AWS EC2 Systems Manager API - Describe Instance Patch States
+  x-api-slug: actiondescribeinstancepatchstates-get
+  description: Retrieves the high-level patch state of one or more instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribeinstancepatchstates-get-openapi.md
+- name: AWS EC2 Systems Manager API - Describe Instance Patch States For Patch Group
+  x-api-slug: actiondescribeinstancepatchstatesforpatchgroup-get
+  description: Retrieves the high-level patch state for the instances in the specified
+    patch group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribeinstancepatchstatesforpatchgroup-get-openapi.md
+- name: AWS EC2 Systems Manager API - Describe Patch Baselines
+  x-api-slug: actiondescribepatchbaselines-get
+  description: Lists the patch baselines in your AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribepatchbaselines-get-openapi.md
+- name: AWS EC2 Systems Manager API - Describe Patch Groups
+  x-api-slug: actiondescribepatchgroups-get
+  description: Lists all patch groups that have been registered with patch baselines.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribepatchgroups-get-openapi.md
 - name: AWS EC2 Systems Manager API - Describe Patch Group State
   x-api-slug: actiondescribepatchgroupstate-get
   description: Returns high-level aggregated patch compliance state for a patch group.
@@ -265,6 +314,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actionupdatepatchbaseline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actionupdatepatchbaseline-get-openapi.md
+- name: AWS EC2 Systems Manager API - Describe Effective Patches For Patch Baseline
+  x-api-slug: actiondescribeeffectivepatchesforpatchbaseline-get
+  description: Retrieves the current effective patches (the patch and the approval
+    state) for the specified patch baseline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribeeffectivepatchesforpatchbaseline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/aws-ec2-systems-manager/actiondescribeeffectivepatchesforpatchbaseline-get-openapi.md
 - name: AWS EC2 Systems Manager API - Describe Effective Patches For Patch Baseline
   x-api-slug: actiondescribeeffectivepatchesforpatchbaseline-get
   description: Retrieves the current effective patches (the patch and the approval

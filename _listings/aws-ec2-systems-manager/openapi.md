@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS EC2 Systems Manager
 x-complete: 1
@@ -446,4 +445,3 @@ paths:
           description: OK
       tags:
       - Baseline
----

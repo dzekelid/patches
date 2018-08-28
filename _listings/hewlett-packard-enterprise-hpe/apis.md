@@ -10,11 +10,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Patches
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: HPE OneSphere API - Patch Appliances
+  x-api-slug: appliancesid-patch
+  description: Update properties of an appliance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-patch-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

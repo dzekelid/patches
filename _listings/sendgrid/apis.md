@@ -7,11 +7,49 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Patches
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: SendGrid - Patch Alerts Alert
+  x-api-slug: alertsalert-id-patch
+  description: "**This endpoint allows you to update an alert.**\n\nAlerts allow you
+    to specify an email address to receive notifications regarding your email usage
+    or statistics. \n* Usage alerts allow you to set the threshold at which an alert
+    will be sent.\n* Stats notifications allow you to set how frequently you would
+    like to receive email statistics reports. For example, \"daily\", \"weekly\",
+    or \"monthly\".\n\nFor more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/sendgrid/alertsalert-id-patch-openapi.md
+- name: SendGrid - Patch Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-patch
+  description: |-
+    **This endpoint allows you to update the name of an existing API Key.**
+
+    A JSON request body with a "name" property is required.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are updating.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/patches/master/_listings/sendgrid/api-keysapi-key-id-patch-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
